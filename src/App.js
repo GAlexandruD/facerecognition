@@ -9,9 +9,10 @@ import Rank from './components/Rank/Rank'
 import Particles from 'react-particles-js';
 import { Component } from 'react';
 import Clarifai from 'clarifai';
+import { ak } from './secret';
 
 const app = new Clarifai.App({
-  apiKey: '8cfae2988a874853852495ebd62bac52'
+  apiKey: ak
 });
 
 
